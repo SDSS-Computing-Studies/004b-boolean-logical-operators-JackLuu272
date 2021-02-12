@@ -19,3 +19,14 @@ Enter a number: 48
 """
 
 #! python3
+
+number = int(input("Enter a number: "))
+
+x = number % 6 
+y = number % 8
+
+if x == 0 and y > 0:
+    print(str(number) + " is frue")
+
+elif (x > 0 and y ==0) or (x == 0 and y ==0):
+    print(str(number) + " is not frue")

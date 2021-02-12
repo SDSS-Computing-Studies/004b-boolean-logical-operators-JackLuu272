@@ -23,3 +23,14 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+integer1 = int(input("Enter a number: "))
+integer2 = int(input("Enter another number: "))
+
+x = integer1 % integer2
+
+if x == 0:
+    print(str(integer2) + " is a factor of " + str(integer1))
+
+if x > 0:
+    print(str(integer2) + " is not a factor of " + str(integer1))
