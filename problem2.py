@@ -24,8 +24,8 @@ Enter another number: 25
 4 is not a factor of 25
 """
 
-integer1 = float(input("Enter a number: "))
-integer2 = float(input("Enter another number: "))
+integer1 = int(input("Enter a number: "))
+integer2 = int(input("Enter another number: "))
 
 x = integer1 % integer2
 

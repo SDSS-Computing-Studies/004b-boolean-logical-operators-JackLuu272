@@ -32,4 +32,6 @@ side3 = float(input("Enter an integer=>"))
 
 a = [side1, side2, side3]
 hyp = max(a) 
+opp = min(a)
+
     
