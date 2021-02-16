@@ -32,5 +32,5 @@ x = integer1 % integer2
 if x == 0:
     print(str(integer2) + " is a factor of " + str(integer1))
 
-if x > 0:
+else:
     print(str(integer2) + " is not a factor of " + str(integer1))
