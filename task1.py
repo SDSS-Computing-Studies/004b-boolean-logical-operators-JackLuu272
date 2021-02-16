@@ -19,7 +19,7 @@ That is not within normal Earth orbit.
 furthest = float(1.016)
 closest = float(0.9759)
 
-x = float(input(""))
+x = float(input("Enter a number: "))
 x = round(x,4)
 
 if x > closest:
