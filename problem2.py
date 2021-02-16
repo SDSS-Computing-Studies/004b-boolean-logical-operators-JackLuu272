@@ -27,10 +27,13 @@ Enter another number: 25
 integer1 = float(input("Enter a number: "))
 integer2 = float(input("Enter another number: "))
 
-x = integer1 % integer2
+o = [integer1, integer2]
+a = max(o)
+b = min(o)
+x = a % b
 
 if x == 0:
-    print(str(int(integer1)) + " is a factor of " + str(int(integer2)))
+    print(str(int(b)) + " is a factor of " + str(int(a)))
 
-elif x > 0:
-    print(str(int(integer1)) + " is not a factor of " + str(int(integer2)))
+else:
+    print(str(int(b)) + " is not a factor of " + str(int(a)))
