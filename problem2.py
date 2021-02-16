@@ -30,7 +30,7 @@ integer2 = float(input("Enter another number: "))
 x = integer1 % integer2
 
 if x == 0:
-    print(str(integer2) + " is a factor of " + str(integer1))
+    print(str(int(integer1)) + " is a factor of " + str(int(integer2)))
 
-else:
-    print(str(integer2) + " is not a factor of " + str(integer1))
+elif x > 0:
+    print(str(int(integer1)) + " is not a factor of " + str(int(integer2)))
