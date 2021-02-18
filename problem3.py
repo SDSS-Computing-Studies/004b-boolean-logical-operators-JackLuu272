@@ -61,8 +61,8 @@ else:
     c = side2
 
 if b**2 + c**2 == a**2:
-    print(str(c),str(b),str(a) + " from a Pythagorean triple")
+    print(str(c) + "," + str(b) + "," + str(a) + " from a Pythagorean triple")
 else:
-    print(str(c),str(b),str(a) + " do not from a Pythagorean triple")
+    print(str(c) + "," + str(b) + "," +str(a) + " do not from a Pythagorean triple")
 
     
