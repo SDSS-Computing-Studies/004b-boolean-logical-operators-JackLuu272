@@ -26,9 +26,9 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
-side1 = float(input(""))
-side2 = float(input(""))
-side3 = float(input(""))
+side1 = int(input(""))
+side2 = int(input(""))
+side3 = int(input(""))
 
 if side2 > side1 > side3:
     a = side2
