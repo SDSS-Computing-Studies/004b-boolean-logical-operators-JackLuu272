@@ -30,8 +30,39 @@ side1 = float(input("Enter an integer=>"))
 side2 = float(input("Enter an integer=>"))
 side3 = float(input("Enter an integer=>"))
 
-a = [side1, side2, side3]
-hyp = max(a) 
-opp = min(a) or 
+if side2 > side1 > side3:
+    a = side2
+    b = side1
+    c = side3
+
+elif side3 > side1 > side2:
+    a = side3
+    b = side1
+    c = side2
+
+elif side1 > side2 > side3:
+    a = side1
+    b = side2
+    c = side3
+
+elif side2 > side3 > side1:
+    a = side2
+    b = side3
+    c = side1
+
+if side3 > side2 > side1:
+    a = side3 
+    b = side2
+    c = side1
+
+else:
+    a = side1
+    b = side3
+    c = side2
+
+if b**2 + c**2 == a**2:
+    print(str(a),str(b),str(c) + " from a Pythagorean triple")
+else:
+    print(str(a),str(b),str(c) + " do not from a Pythagorean triple")
 
     
