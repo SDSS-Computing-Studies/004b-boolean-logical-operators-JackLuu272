@@ -26,9 +26,9 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
-side1 = float(input("Enter an integer=>"))
-side2 = float(input("Enter an integer=>"))
-side3 = float(input("Enter an integer=>"))
+side1 = int(input("Enter an integer=>"))
+side2 = int(input("Enter an integer=>"))
+side3 = int(input("Enter an integer=>"))
 
 if side2 > side1 > side3:
     a = side2
@@ -61,8 +61,8 @@ else:
     c = side2
 
 if b**2 + c**2 == a**2:
-    print(str(a),str(b),str(c) + " from a Pythagorean triple")
+    print(str(c),str(b),str(a) + " from a Pythagorean triple")
 else:
-    print(str(a),str(b),str(c) + " do not from a Pythagorean triple")
+    print(str(c),str(b),str(a) + " do not from a Pythagorean triple")
 
     
