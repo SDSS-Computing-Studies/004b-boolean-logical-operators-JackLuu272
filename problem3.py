@@ -26,9 +26,9 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
-side1 = int(input("Enter an integer=>"))
-side2 = int(input("Enter an integer=>"))
-side3 = int(input("Enter an integer=>"))
+side1 = float(input("Enter an integer=>"))
+side2 = float(input("Enter an integer=>"))
+side3 = float(input("Enter an integer=>"))
 
 if side2 > side1 > side3:
     a = side2
@@ -50,7 +50,7 @@ elif side2 > side3 > side1:
     b = side3
     c = side1
 
-if side3 > side2 > side1:
+elif side3 > side2 > side1:
     a = side3 
     b = side2
     c = side1
